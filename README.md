@@ -1,6 +1,6 @@
 # GigaRaid
 
-Village-building strategy game for the web. React + TypeScript + Vite + Tailwind + shadcn primitives, React Three Fiber world, username sign-in, Express battle server with in-memory persistence. Runs fully offline.
+Village-building strategy game for the web. React + TypeScript + Vite + Tailwind + shadcn primitives, React Three Fiber world, username sign-in, Express API with in-memory persistence. Runs fully offline.
 
 ## Run it
 
@@ -15,14 +15,14 @@ Open `http://localhost:5173`. No accounts or API keys — pick a username and a 
 
 Copy `frontend/.env.example` → `frontend/.env` and `backend/.env.example` → `backend/.env` if you want to change ports. The API keeps villages in memory.
 
-## Asset path (the important part)
+## 3D assets
 
-I cannot mint Tripo-quality characters and buildings from here. Shipping a fake “hero pig GLB” would look worse than a clean procedural village and would fight the models you generate later.
+The village currently renders **toon-shaded procedural meshes** and sprite sheets, so placement, production, settings and the tutorial are all playable without any 3D models.
 
-**Best functional path — and what this repo is wired for:**
+To swap in real models:
 
 1. **Keep the isometric R3F scene and grid as the source of truth.** Camera, placement, production, and HUD do not care what the mesh looks like.
-2. **Generate the real roster in [Tripo](https://www.tripo3d.ai)** (or Meshy) to match your Figma / concept stills: Town Hall, towers, mines, vats, builder hut, camps, minions, pig foreman.
+2. Create or source models for the roster: Town Hall, towers, mines, vats, builder hut, camps and troops.
 3. Export **GLB**, triangulated, Y-up, real-world scale ~1–3 units, idle animation baked if you have one.
 4. Drop files in `frontend/public/models/` and point `frontend/src/game/assets/manifest.ts` at them:
 
@@ -32,20 +32,7 @@ townhall: "/models/townhall.glb"
 
 `ModelOrFallback` loads the GLB when the path is set and keeps the procedural mesh as a loading / missing fallback. Gameplay never stops.
 
-Until those files land, the village is built from **toon-shaded procedural meshes** so you can play placement, production, settings, and tutorial today.
-
-### What not to do
-
-- Do not rebuild the world as a 2D sprite canvas. Your ideation already moved to Tripo 3D, and the isometric camera and combat are cheaper to keep in 3D.
-- Do not stream giant unoptimized Tripo scenes. One GLB per building type, instanced / cloned, under ~2 MB each.
-
-### Optional free kits while Tripo cooks
-
-- [Kenney Fantasy Town](https://kenney.nl) (CC0)
-- [Quaternius](https://quaternius.com) low-poly packs
-- [Poly Pizza](https://poly.pizza) CC-BY models
-
-Same drop-in: path in `manifest.ts`.
+Keep each model lean: one GLB per building type, instanced or cloned, under ~2 MB each.
 
 ## Stack map
 
