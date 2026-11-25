@@ -1,0 +1,21 @@
+{
+  "name": "gigaraid-webgame",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "GigaRaid developers",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"yarn workspace gigaraid-backend dev\" \"yarn workspace gigaraid-frontend dev\"",
+    "build": "yarn workspace gigaraid-backend build && yarn workspace gigaraid-frontend build",
+    "start": "concurrently -k -n api,web -c cyan,magenta \"yarn workspace gigaraid-backend start\" \"yarn workspace gigaraid-frontend preview\"",
+    "frontend:dev": "yarn workspace gigaraid-frontend dev",
+    "backend:dev": "yarn workspace gigaraid-backend dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "object": {
+    "id": "423f950a-208c-4180-8cba-eae7b26a2902",
+    "name": "base",
+    "prompt": "Level 2 medieval townhall - yellow wood. A little bit lavish",
+    "size": {
+      "width": 136,
+      "height": 136
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "Level_2_medieval_townhall_-_ye.png",
+    "cell_size": {
+      "width": 136,
+      "height": 136
+    },
+    "sheet_size": {
+      "width": 1088,
+      "height": 136
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-04T23:37:06.909777+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "object": {
+    "id": "b2035667-14c5-4c95-9217-b28e92899b9f",
+    "name": "base",
+    "prompt": "level one village townhall with chimney",
+    "size": {
+      "width": 136,
+      "height": 136
+    },
+    "directions": 8,
+    "view": "high top-down"
+  },
+  "spritesheet": {
+    "path": "level_one_village_townhall_-_c.png",
+    "cell_size": {
+      "width": 136,
+      "height": 136
+    },
+    "sheet_size": {
+      "width": 1088,
+      "height": 136
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-04T05:54:24.404694+00:00"
+}

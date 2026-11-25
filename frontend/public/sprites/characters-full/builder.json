@@ -1,0 +1,173 @@
+{
+  "character": {
+    "id": "d97ac074-257c-48f6-b0a3-d0f2a6acfebe",
+    "name": "Idle",
+    "prompt": "Builder with hammer that looks like a well built construction worker",
+    "size": {
+      "width": 128,
+      "height": 128
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "Builder_with_hammer_that-Idle.png",
+    "cell_size": {
+      "width": 172,
+      "height": 172
+    },
+    "sheet_size": {
+      "width": 1548,
+      "height": 2924
+    },
+    "columns": 9,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The construction worker raises the hammer in his right hand, pulling it back behind his shoulder as he shifts his weight slightly to his left side. With a forceful, rhythmic motion, he swings the hammer downward in a deliberate arc, bringing it to a sudden stop as if striking an unseen surface in front of him. His body leans forward slightly with the momentum of the swing, and after the impact, he quickly retracts the hammer to his starting position, tensing his muscles briefly before relaxing into his original, steady stance.",
+        "animation_group_id": "7bbdea0a-7084-44a4-8735-fcc81dd35719",
+        "direction": "south-west"
+      },
+      {
+        "row": 9,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "south"
+      },
+      {
+        "row": 10,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "south-east"
+      },
+      {
+        "row": 11,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "east"
+      },
+      {
+        "row": 12,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "north-east"
+      },
+      {
+        "row": 13,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "north"
+      },
+      {
+        "row": 14,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "north-west"
+      },
+      {
+        "row": 15,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "west"
+      },
+      {
+        "row": 16,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Walking",
+        "animation_group_id": "f33cca59-3cd0-41ef-bf18-cc94b85cfc39",
+        "direction": "south-west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-04T23:13:08.426700+00:00"
+}

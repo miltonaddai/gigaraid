@@ -1,0 +1,109 @@
+{
+  "object": {
+    "id": "ef578b91-603b-4735-86d5-e7ee61a8c63d",
+    "name": "base",
+    "prompt": "ground mining pump",
+    "size": {
+      "width": 136,
+      "height": 136
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "ground_mining_pump.png",
+    "cell_size": {
+      "width": 136,
+      "height": 136
+    },
+    "sheet_size": {
+      "width": 1224,
+      "height": 1224
+    },
+    "columns": 9,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The cannon's side-mounted pump handle moves rhythm",
+        "animation_group_id": "bbae4c0c-9b1e-49f9-b1e6-72a59e03d18a",
+        "direction": "south-west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-04T23:24:56.657161+00:00"
+}

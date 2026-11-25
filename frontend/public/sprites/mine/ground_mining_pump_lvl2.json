@@ -1,0 +1,109 @@
+{
+  "object": {
+    "id": "4ada94af-79e3-451c-afb9-8ae91221d870",
+    "name": "Level 2 miners. A bi",
+    "prompt": "ground mining pump",
+    "size": {
+      "width": 136,
+      "height": 136
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "ground_mining_pump_lvl2.png",
+    "cell_size": {
+      "width": 136,
+      "height": 136
+    },
+    "sheet_size": {
+      "width": 1224,
+      "height": 1224
+    },
+    "columns": 9,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The mechanical mining device rhythmically drives i",
+        "animation_group_id": "165a329a-aee6-4942-8191-d47e8beae771",
+        "direction": "south-west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-05T00:03:46.552019+00:00"
+}

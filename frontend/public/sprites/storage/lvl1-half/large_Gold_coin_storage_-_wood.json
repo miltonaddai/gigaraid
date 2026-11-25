@@ -1,0 +1,45 @@
+{
+  "object": {
+    "id": "08ad9089-190b-4fb3-aa5c-436bb2b4f7e7",
+    "name": "make it half filled",
+    "prompt": "large Gold coin storage - wood",
+    "size": {
+      "width": 136,
+      "height": 136
+    },
+    "directions": 8,
+    "view": "high top-down"
+  },
+  "spritesheet": {
+    "path": "large_Gold_coin_storage_-_wood.png",
+    "cell_size": {
+      "width": 136,
+      "height": 136
+    },
+    "sheet_size": {
+      "width": 1088,
+      "height": 136
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-04T22:49:15.309692+00:00"
+}

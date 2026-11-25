@@ -1,0 +1,173 @@
+{
+  "character": {
+    "id": "948759bc-7665-4afb-ad27-8787183d9776",
+    "name": "Idle",
+    "prompt": "Female archer holding bow and arrow - wearing pink costume and a hat",
+    "size": {
+      "width": 128,
+      "height": 128
+    },
+    "directions": 8,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "Female_archer_holding_bo-Idle.png",
+    "cell_size": {
+      "width": 172,
+      "height": 172
+    },
+    "sheet_size": {
+      "width": 1548,
+      "height": 2924
+    },
+    "columns": 9,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "south"
+      },
+      {
+        "row": 2,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "south-east"
+      },
+      {
+        "row": 3,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "east"
+      },
+      {
+        "row": 4,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "north-east"
+      },
+      {
+        "row": 5,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "north"
+      },
+      {
+        "row": 6,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "north-west"
+      },
+      {
+        "row": 7,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "west"
+      },
+      {
+        "row": 8,
+        "type": "animation",
+        "frame_count": 8,
+        "animation": "Running",
+        "animation_group_id": "ae69905a-14b1-4f71-a568-a27ad1fffd9c",
+        "direction": "south-west"
+      },
+      {
+        "row": 9,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "south"
+      },
+      {
+        "row": 10,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "south-east"
+      },
+      {
+        "row": 11,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "east"
+      },
+      {
+        "row": 12,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "north-east"
+      },
+      {
+        "row": 13,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "north"
+      },
+      {
+        "row": 14,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "north-west"
+      },
+      {
+        "row": 15,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "west"
+      },
+      {
+        "row": 16,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "The archer shifts her weight slightly to plant her feet firmly, then draws the bowstring back to her cheek with a fluid motion. As she holds the tension for a brief moment, her eyes focus intently on her target before she releases the string. The bow kicks back slightly with the force of the shot, and she follows through by relaxing her stance, her arms settling back down as she prepares to reach for another arrow.",
+        "animation_group_id": "d93bb433-1a3a-4693-8a88-b1593a03c3b2",
+        "direction": "south-west"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-04T23:14:14.740044+00:00"
+}

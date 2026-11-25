@@ -1,0 +1,45 @@
+{
+  "object": {
+    "id": "d34ca1ba-8458-4634-bfa6-4b453faf6e48",
+    "name": "Make it bigger and a",
+    "prompt": "large Gold coin storage - wood",
+    "size": {
+      "width": 136,
+      "height": 136
+    },
+    "directions": 8,
+    "view": "high top-down"
+  },
+  "spritesheet": {
+    "path": "large_Gold_coin_storage_-_wood.png",
+    "cell_size": {
+      "width": 136,
+      "height": 136
+    },
+    "sheet_size": {
+      "width": 1088,
+      "height": 136
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-04T22:51:39.905580+00:00"
+}

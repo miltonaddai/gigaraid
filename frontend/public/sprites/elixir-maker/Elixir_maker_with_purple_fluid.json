@@ -1,0 +1,45 @@
+{
+  "object": {
+    "id": "ba66173b-624a-4036-a5ac-ad4c943afba3",
+    "name": "base",
+    "prompt": "Elixir maker with purple fluid",
+    "size": {
+      "width": 136,
+      "height": 136
+    },
+    "directions": 8,
+    "view": "high top-down"
+  },
+  "spritesheet": {
+    "path": "Elixir_maker_with_purple_fluid.png",
+    "cell_size": {
+      "width": 136,
+      "height": 136
+    },
+    "sheet_size": {
+      "width": 1088,
+      "height": 136
+    },
+    "columns": 8,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 8,
+        "directions": [
+          "south",
+          "south-east",
+          "east",
+          "north-east",
+          "north",
+          "north-west",
+          "west",
+          "south-west"
+        ]
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-05T04:25:32.425514+00:00"
+}
