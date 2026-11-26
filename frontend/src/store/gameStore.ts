@@ -128,35 +128,7 @@ function createStarterVillage(name: string, playerId: string): Village {
   };
 }
 
-const LEGACY_CURRENCY = "bitcoin";
-const LEGACY_MINE = "bitcoin_mine";
-
-function migrateCurrency(village: Village): Village {
-  const raw = village.resources as Village["resources"] &
-    Partial<Record<string, number>>;
-  const hasLegacy =
-    raw[LEGACY_CURRENCY] !== undefined ||
-    village.buildings.some((b) => (b.type as string) === LEGACY_MINE);
-  if (!hasLegacy) return village;
-  const { [LEGACY_CURRENCY]: legacyAmount, ...rest } = raw;
-  return {
-    ...village,
-    resources: {
-      gold: rest.gold ?? legacyAmount ?? 0,
-      elixir: rest.elixir ?? 0,
-      ore: rest.ore ?? 0,
-    },
-    buildings: village.buildings.map((b) =>
-      (b.type as string) === LEGACY_MINE ? { ...b, type: "gold_mine" as const } : b,
-    ),
-    quests: village.quests.map((q) =>
-      q.id === "q2" ? { ...q, title: "Collect 500 gold" } : q,
-    ),
-  };
-}
-
-function normalizeRoster(input: Village): Village {
-  const village = migrateCurrency(input);
+function normalizeRoster(village: Village): Village {
   let buildings = village.buildings.filter(
     (b) =>
       (b.type as string) !== "trencher_hut" &&
@@ -751,6 +723,7 @@ export const useGameStore = create<GameState>()(
     }),
     {
       name: "gigaraid-village",
+      version: 1,
       partialize: (s) => ({
         village: s.village,
         settings: s.settings,
