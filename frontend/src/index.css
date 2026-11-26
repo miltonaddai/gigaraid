@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-pixel: "VT323", ui-monospace, monospace;
-  --font-hud: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-hud: "Outfit Variable", ui-sans-serif, system-ui, sans-serif;
   --color-raid-yellow: #f5e642;
   --color-raid-lime: #a3e635;
   --color-raid-charcoal: #1a1d23;
@@ -24,7 +24,7 @@ body,
   min-height: 100%;
   background: #0c0e12;
   color: #f4f4f5;
-  font-family: var(--font-pixel);
+  font-family: var(--font-display);
 }
 
 .reveal,
